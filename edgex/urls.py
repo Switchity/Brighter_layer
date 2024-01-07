@@ -6,5 +6,6 @@ from Linux import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index)
+    path('p1/', views.index),
+    path('p2/', views.index1)
 ]
