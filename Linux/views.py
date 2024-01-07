@@ -3,4 +3,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'index.html')
+    return HttpResponse("Hi chandan how are you")
+
+def index1(request):
+    return HttpResponse("I am good ")
